@@ -26,10 +26,10 @@ Una vez terminado el diseño, se puso a prueba el circuito en dos configuracione
 ![Resultados de simulación](docs/images/op-amp-schematic-ltspice.png)
 *Esquemático simulado en LTspice, base de los resultados de ganancia y ancho de banda.*
 
-![Resultados de simulación con feedback](docs/images/op-amp-schematic-ltspice.png)
+![Resultados de simulación con feedback](docs/images/op-amp-schematic-feedback-ltspice.png)
 *Esquemático simulado en LTspice, en configuración no inversora de ganancia 2.*
 
-![Resultados de simulación como buffer](docs/images/op-amp-schematic-ltspice.png)
+![Resultados de simulación como buffer](docs/images/op-amp-schematic-buffer-ltspice.png)
 *Esquemático simulado en LTspice, en configuración de buffer.*
 
 ## Esquemático en KiCad
