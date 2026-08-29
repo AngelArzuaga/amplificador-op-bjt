@@ -45,7 +45,7 @@ Una vez terminado el diseño, se puso a prueba el circuito en dos configuracione
 ![Render del PCB](docs/images/op-amp-PCB-render.png)
 *Render 3D del PCB terminado.*
 
-![PCB](docs/images/op-amp-PCB-render.png)
+![PCB](docs/images/op-amp-PCB.png)
 *PCB terminado con componentes soldados.*
 
 ## Componentes utilizados
@@ -55,7 +55,7 @@ Una vez terminado el diseño, se puso a prueba el circuito en dos configuracione
 | NPN | 2N3904 | [datasheet](datasheets/2N3904.pdf) |
 | PNP | 2N3906 | [datasheet](datasheets/2N3906.pdf) |
 | $R_{ref}$ | 10 kΩ | — |
-| $C_1$ | 100 nF | — |
+| $C_1$ | 100 pF | — |
 
 El amplificador se diseño para que tanto $R_{ref}$ como $C_1$ puedan ser intercambiables a gusto del diseñador o usuario final.
 
