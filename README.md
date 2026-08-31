@@ -1,6 +1,8 @@
 # Amplificador Operacional con BJTs
 
 Diseño de un amplificador operacional discreto construido con transistores BJT, incluyendo esquemático, simulación en LTspice y layout en KiCad.
+### Integrantes:
+Ángel Arzuaga, María Camila Castilla, Cristian Sepúlveda y Esteban Toro
 
 ## Descripción
 
@@ -8,20 +10,7 @@ Este proyecto consiste en construir, desde cero, un amplificador operacional usa
 
 Una vez terminado el diseño, se puso a prueba el circuito en dos configuraciones clásicas para verificar que funcionara correctamente. La primera fue como amplificador no inversor con ganancia 2, es decir, la señal de salida sale duplicada respecto a la de entrada, manteniendo la misma polaridad. La segunda fue como buffer (o seguidor de voltaje), una configuración que no amplifica la señal pero es muy útil para aislar etapas de un circuito sin alterar el voltaje que pasa por ellas.
 
-## Especificaciones teóricas (Por evaluar)
-
-| Parámetro | Valor |
-|---|---|
-| Ganancia en lazo abierto | XX dB |
-| Ancho de banda | XX kHz |
-| Voltaje de alimentación | ±XX V |
-| Impedancia de entrada | XX kΩ |
-| Impedancia de salida | XX Ω |
-| Slew rate | XX V/µs |
-
 ## Simulación en LTspice
-
-<!-- Agrega aquí una imagen de la respuesta en frecuencia, transitoria, etc. -->
 
 ![Resultados de simulación](docs/images/op-amp-schematic-ltspice.png)
 *Esquemático simulado en LTspice, base de los resultados de ganancia y ancho de banda.*
@@ -46,6 +35,7 @@ Una vez terminado el diseño, se puso a prueba el circuito en dos configuracione
 *Render 3D del PCB terminado.*
 
 ![PCB](docs/images/op-amp-PCB.png)
+
 *PCB terminado con componentes soldados.*
 
 ## Componentes utilizados
@@ -58,26 +48,6 @@ Una vez terminado el diseño, se puso a prueba el circuito en dos configuracione
 | $C_1$ | 100 pF | — |
 
 El amplificador se diseño para que tanto $R_{ref}$ como $C_1$ puedan ser intercambiables a gusto del diseñador o usuario final.
-
-## Resultados reales (Por evaluar)
-
-| Parámetro | Valor |
-|---|---|
-| Ganancia en lazo abierto | XX dB |
-| Ancho de banda | XX kHz |
-| Voltaje de alimentación | ±XX V |
-| Impedancia de entrada | XX kΩ |
-| Impedancia de salida | XX Ω |
-| Slew rate | XX V/µs |
-
-Estos valores pueden cambiar ligeramente respecto a los teóricos/simulados debido a factores propios de la implementación física, entre ellos como:
-
-- **Tolerancia de los componentes**
-- **Variación entre transistores**
-- **Efectos térmicos**
-- **Parásitos del PCB**
-- **Precisión del equipo de medición**
-- **Calidad de la fuente de alimentación**
 
 ## Estructura del repositorio
 
